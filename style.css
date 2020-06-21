@@ -177,7 +177,7 @@ body {
 }
 
 #footer .f-img {
-  background: url("../img/footer.png") no-repeat top/cover;
+  background: url("./img/footer.png") no-repeat top/cover;
   max-height: 530px;
   margin: 140px 3rem 3rem 3rem;
 }
