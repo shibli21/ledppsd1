@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  color: $color-text;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "poppins";
+}
+
+.title-1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.title-2 {
+  font-family: "poppins";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.primary-t {
+  font-size: 25px;
+  font-weight: 600;
+}

@@ -1,0 +1,66 @@
+#book {
+  .title-2 {
+    margin-top: 80px;
+  }
+  input {
+    // display: inline-block;
+    border-radius: 3px;
+    height: 40px;
+    margin: 8px;
+    width: 45%;
+    padding-left: 10px;
+    border: 1px solid #999;
+
+    &:focus {
+      outline: 1px solid #888;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .title-2 {
+      margin-top: 10px;
+    }
+
+    input {
+      width: 100%;
+      margin: 8px 0;
+    }
+    .img-1,
+    .img-2,
+    .img-3 {
+      display: none;
+    }
+  }
+}
+
+#book-footer {
+  position: relative;
+  overflow: hidden;
+  .img-1 {
+    height: 280px;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+  }
+  .img-2 {
+    position: absolute;
+    max-height: 360px;
+    width: auto;
+    top: 18%;
+    right: -12%;
+  }
+  .img-3 {
+    position: absolute;
+    top: 0%;
+    width: 270px;
+    left: 3%;
+  }
+
+  @media screen and (max-width: 576px) {
+    .img-1,
+    .img-2,
+    .img-3 {
+      display: none;
+    }
+  }
+}

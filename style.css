@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@400;500;600;700&display=swap");
+.text-box {
+  position: relative;
+  color: #fff;
+  font-weight: 800;
+}
+
+.text-box p {
+  font-size: 15px;
+}
+
+.text-box h1 {
+  margin-top: -20px;
+}
+
+.text-box .text-1 {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+}
+
+.text-box .text-2 {
+  color: #fff;
+  position: absolute;
+  top: 15%;
+  left: 7%;
+}
+
+body {
+  color: #3d2514;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "poppins";
+}
+
+.title-1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.title-2 {
+  font-family: "poppins";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.primary-t {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#burgers h3 {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 20px;
+  background: #ffbf45;
+  margin: 20px 0;
+}
+
+#burgers h2 {
+  margin-bottom: 10px;
+}
+
+#burgers h1 {
+  margin: 15px 0;
+}
+
+#burgers p {
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+#burgers .img-b {
+  max-width: 100%;
+  height: 220px;
+}
+
+#burgers .btn-primary {
+  border: none;
+  font-size: 15px;
+  font-family: "Alfa Slab One", cursive;
+  padding: 15px 25px;
+  background: #d32525;
+  border-radius: 0;
+  outline: none;
+}
+
+#events h1 {
+  margin-top: -7px;
+}
+
+#events p {
+  text-align: justify;
+}
+
+#events .box {
+  padding: 20px 10px 20px 20px;
+  -webkit-box-shadow: 0px 13px 53px -31px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 13px 53px -31px rgba(0, 0, 0, 0.75);
+}
+
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#book .title-2 {
+  margin-top: 80px;
+}
+
+#book input {
+  border-radius: 3px;
+  height: 40px;
+  margin: 8px;
+  width: 45%;
+  padding-left: 10px;
+  border: 1px solid #999;
+}
+
+#book input:focus {
+  outline: 1px solid #888;
+}
+
+@media screen and (max-width: 576px) {
+  #book .title-2 {
+    margin-top: 10px;
+  }
+  #book input {
+    width: 100%;
+    margin: 8px 0;
+  }
+  #book .img-1,
+  #book .img-2,
+  #book .img-3 {
+    display: none;
+  }
+}
+
+#book-footer {
+  position: relative;
+  overflow: hidden;
+}
+
+#book-footer .img-1 {
+  height: 280px;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+
+#book-footer .img-2 {
+  position: absolute;
+  max-height: 360px;
+  width: auto;
+  top: 18%;
+  right: -12%;
+}
+
+#book-footer .img-3 {
+  position: absolute;
+  top: 0%;
+  width: 270px;
+  left: 3%;
+}
+
+@media screen and (max-width: 576px) {
+  #book-footer .img-1,
+  #book-footer .img-2,
+  #book-footer .img-3 {
+    display: none;
+  }
+}
+
+#footer {
+  color: #fff;
+}
+
+#footer .f-img {
+  background: url("../img/footer.png") no-repeat top/cover;
+  max-height: 530px;
+  margin: 140px 3rem 3rem 3rem;
+}
+
+#footer .box-1 {
+  padding: 20px 20px;
+}
+
+#footer .box-1 .d {
+  margin: 40px 0;
+  font-size: 12px;
+}
+
+#footer .box-1 .copy {
+  margin-top: 100px;
+  font-size: 12px;
+}
+
+#footer .box-2 {
+  padding: 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer .box-2 i {
+  margin-right: 5px;
+}
+
+#footer .box-2 .ic {
+  color: #242424;
+  padding: 8px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  #footer .f-img {
+    margin: 70px 1.5rem 1.5rem 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
