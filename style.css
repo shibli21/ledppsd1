@@ -309,7 +309,7 @@ body {
 
 @media screen and (max-width: 450px) {
   .headf #navbar {
-    margin: 20px 0px 0px 0px;
+    margin: 20px 30px 0px 0px;
   }
   .headf #navbar .logo {
     width: 80%;
