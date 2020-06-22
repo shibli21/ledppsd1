@@ -222,4 +222,101 @@ body {
     margin: 70px 1.5rem 1.5rem 1.5rem;
   }
 }
+
+.headf {
+  background: #ffbf45;
+  overflow: hidden;
+}
+
+.headf .burger-img {
+  margin-top: -200px;
+  margin-right: -200px;
+  padding: 40px 0px 70px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.headf .img-text {
+  padding: 0px 40px 90px 40px;
+}
+
+.navi {
+  padding: 40px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navi .navi__links {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navi .navi__links .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+.navi .navi__links .top i {
+  margin-right: 10px;
+}
+
+.navi .navi__links .bottom .navi__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navi .navi__links .bottom .navi__item {
+  margin-left: 60px;
+}
+
+.navi .navi__links .bottom .navi__link {
+  text-decoration: none;
+  color: #3d2514;
+}
+
+@media screen and (max-width: 916px) {
+  .navi .navi__links {
+    display: none;
+  }
+}
+
+.text {
+  margin-left: 40px;
+}
+
+.text__dotted {
+  display: inline;
+  font-size: 1rem;
+  padding: 7px 10px;
+  border: 1px dashed black;
+}
+
+.text__burger {
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 5px 5px 0px white;
+  font-size: 100px;
+}
+
+.text__week {
+  font-family: "Alfa Slab One", cursive;
+  text-shadow: 5px 5px 0px white;
+  font-size: 50px;
+  margin-top: -30px;
+}
 /*# sourceMappingURL=style.css.map */

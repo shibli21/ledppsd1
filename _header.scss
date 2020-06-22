@@ -1,0 +1,44 @@
+// .container {
+//   background: $color-primary;
+//   height: 100vh;
+//   display: grid;
+//   // grid-template-areas:
+//   //   "b1 b1"
+//   //   "b2 b3";
+
+//   grid-template: 10% 90% / repeat(2, 1fr);
+
+//   // grid-template-rows: 10% 90%;
+
+//   .text {
+//     // grid-area: b2;
+
+//     grid-column: 1/2;
+//     width: 100%;
+//     // background: red;
+//     align-self: center;
+//     &__dotted {
+//       display: inline;
+//       padding: 0.8rem 1.2rem;
+//       border: 1px dashed black;
+//     }
+
+//     &__burger {
+//       font-family: "Alfa Slab One", cursive;
+//       font-size: 1000%;
+//     }
+
+//     &__week {
+//       font-family: "Alfa Slab One", cursive;
+//       font-size: 6rem;
+//     }
+//   }
+// }
+
+// .burger-img {
+//   grid-column: 2/-1;
+
+//   // grid-area: b3;
+//   width: 100%;
+//   object-fit: cover;
+// }
