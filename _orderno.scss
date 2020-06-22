@@ -32,4 +32,11 @@
     border-radius: 0;
     outline: none;
   }
+
+  @media screen and (max-width: 768px) {
+    .img-b {
+      max-width: 100%;
+      height: 140px;
+    }
+  }
 }

@@ -92,6 +92,13 @@ body {
   outline: none;
 }
 
+@media screen and (max-width: 768px) {
+  #burgers .img-b {
+    max-width: 100%;
+    height: 140px;
+  }
+}
+
 #events h1 {
   margin-top: -7px;
 }
