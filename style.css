@@ -129,13 +129,28 @@ body {
   outline: 1px solid #888;
 }
 
+#book .btn-primary {
+  margin: 8px;
+  width: 45%;
+  height: 40px;
+  border: none;
+  font-family: "Alfa Slab One", cursive;
+  background: #d32525;
+  border-radius: 0;
+  outline: none;
+}
+
 @media screen and (max-width: 576px) {
   #book .title-2 {
     margin-top: 10px;
   }
   #book input {
     width: 100%;
+    margin: 8px auto;
+  }
+  #book .btn-primary {
     margin: 8px 0;
+    width: 100%;
   }
   #book .img-1,
   #book .img-2,
@@ -187,6 +202,7 @@ body {
   background: url("./img/footer.png") no-repeat top/cover;
   max-height: 530px;
   margin: 140px 3rem 3rem 3rem;
+  padding: 20px;
 }
 
 #footer .box-1 {
@@ -204,7 +220,7 @@ body {
 }
 
 #footer .box-2 {
-  padding: 20px 20px;
+  padding: 0px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,11 +229,24 @@ body {
           align-items: center;
 }
 
+#footer .box-2 p {
+  margin-top: -11px;
+  font-size: 14px;
+}
+
 #footer .box-2 i {
   margin-right: 5px;
 }
 
-#footer .box-2 .ic {
+#footer .box-3 p {
+  font-size: 14px;
+}
+
+#footer .box-4 {
+  margin-top: auto;
+}
+
+#footer .box-4 .ic {
   color: #242424;
   padding: 8px;
   background: #fff;
@@ -286,6 +315,7 @@ body {
 }
 
 .headf #navbar .nav-link {
+  font-weight: 500;
   color: #3d2514;
   padding: 0;
 }

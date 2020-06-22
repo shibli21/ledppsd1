@@ -16,6 +16,17 @@
     }
   }
 
+  .btn-primary {
+    margin: 8px;
+    width: 45%;
+    height: 40px;
+    border: none;
+    font-family: "Alfa Slab One", cursive;
+    background: $color-btn;
+    border-radius: 0;
+    outline: none;
+  }
+
   @media screen and (max-width: 576px) {
     .title-2 {
       margin-top: 10px;
@@ -23,8 +34,14 @@
 
     input {
       width: 100%;
-      margin: 8px 0;
+      margin: 8px auto;
     }
+
+    .btn-primary {
+      margin: 8px 0;
+      width: 100%;
+    }
+
     .img-1,
     .img-2,
     .img-3 {

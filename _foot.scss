@@ -4,6 +4,7 @@
     background: url("./img/footer.png") no-repeat top / cover;
     max-height: 530px;
     margin: 140px 3rem 3rem 3rem;
+    padding: 20px;
   }
 
   .box-1 {
@@ -20,16 +21,29 @@
   }
 
   .box-2 {
-    padding: 20px 20px;
+    padding: 0px 20px;
     display: flex;
     // justify-content: center;
     align-items: center;
+    p {
+      margin-top: -11px;
+      font-size: 14px;
+    }
 
     i {
       margin-right: 5px;
     }
-    .icons {
+  }
+
+  .box-3 {
+    p {
+      // margin-top: -11px;
+      font-size: 14px;
     }
+  }
+
+  .box-4 {
+    margin-top: auto;
     .ic {
       color: rgb(36, 36, 36);
       padding: 8px;
