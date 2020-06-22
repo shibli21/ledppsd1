@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@400;500;600;700&display=swap");
+@media screen and (max-width: 765px) {
+  .try {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
 .text-box {
   position: relative;
   color: #fff;
@@ -164,7 +171,7 @@ body {
   left: 3%;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 950px) {
   #book-footer .img-1,
   #book-footer .img-2,
   #book-footer .img-3 {
@@ -228,36 +235,27 @@ body {
   overflow: hidden;
 }
 
-.headf .burger-img {
-  margin-top: -200px;
-  margin-right: -200px;
-  padding: 40px 0px 70px 0px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
+.headf #navbar {
+  margin: 20px 20px 80px 20px;
 }
 
-.headf .img-text {
-  padding: 0px 40px 90px 40px;
+.headf #navbar #menu {
+  z-index: 3000;
 }
 
-.navi {
-  padding: 40px 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.headf #navbar .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.navi .navi__links {
-  font-size: 16px;
-  font-weight: 600;
+.headf #navbar .custom-toggler.navbar-toggler {
+  border-color: #3d2514;
 }
 
-.navi .navi__links .top {
+.headf #navbar .navbar-toggler {
+  z-index: 2000;
+}
+
+.headf #navbar .top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,53 +268,60 @@ body {
   padding-bottom: 10px;
 }
 
-.navi .navi__links .top i {
+.headf #navbar .top i {
   margin-right: 10px;
 }
 
-.navi .navi__links .bottom .navi__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-}
-
-.navi .navi__links .bottom .navi__item {
-  margin-left: 60px;
-}
-
-.navi .navi__links .bottom .navi__link {
-  text-decoration: none;
-  color: #3d2514;
-}
-
-@media screen and (max-width: 916px) {
-  .navi .navi__links {
-    display: none;
-  }
-}
-
-.text {
+.headf #navbar .nav-item {
   margin-left: 40px;
 }
 
-.text__dotted {
-  display: inline;
-  font-size: 1rem;
-  padding: 7px 10px;
-  border: 1px dashed black;
+.headf #navbar .nav-link {
+  color: #3d2514;
+  padding: 0;
 }
 
-.text__burger {
-  font-family: "Alfa Slab One", cursive;
-  text-shadow: 5px 5px 0px white;
-  font-size: 100px;
+@media screen and (max-width: 765px) {
+  .headf #navbar {
+    margin: 40px 40px 20px 20px;
+  }
+  .headf #navbar .logo {
+    height: 100%;
+  }
 }
 
-.text__week {
-  font-family: "Alfa Slab One", cursive;
-  text-shadow: 5px 5px 0px white;
-  font-size: 50px;
-  margin-top: -30px;
+@media screen and (max-width: 450px) {
+  .headf #navbar {
+    margin: 20px 0px 0px 0px;
+  }
+  .headf #navbar .logo {
+    width: 80%;
+  }
+}
+
+.headf .burger-img {
+  margin-top: -200px;
+  margin-right: -200px;
+  padding: 40px 0px 70px 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+@media screen and (max-width: 450px) {
+  .headf .burger-img {
+    margin-left: 20px;
+  }
+}
+
+.headf .img-text {
+  padding: 0px 40px 90px 40px;
+}
+
+@media screen and (max-width: 450px) {
+  .headf .img-text {
+    padding: 0px 40px 90px 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
