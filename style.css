@@ -252,7 +252,12 @@ body {
 }
 
 .headf #navbar .navbar-toggler {
+  border-radius: 0;
   z-index: 2000;
+}
+
+.headf #navbar button:focus {
+  outline: 1px solid #3d2514;
 }
 
 .headf #navbar .top {
@@ -276,6 +281,10 @@ body {
   margin-left: 40px;
 }
 
+.headf #navbar .nav-item:hover {
+  border-bottom: 1px solid #3d2514;
+}
+
 .headf #navbar .nav-link {
   color: #3d2514;
   padding: 0;
@@ -283,10 +292,18 @@ body {
 
 @media screen and (max-width: 765px) {
   .headf #navbar {
-    margin: 40px 40px 20px 20px;
+    margin: 40px 40px 40px 20px;
   }
   .headf #navbar .logo {
     height: 100%;
+  }
+  .headf #navbar .top {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .headf #navbar .nav-item {
+    margin-left: 0px;
   }
 }
 
