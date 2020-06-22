@@ -292,7 +292,7 @@ body {
 
 @media screen and (max-width: 765px) {
   .headf #navbar {
-    margin: 40px 40px 40px 20px;
+    margin: 40px 40px 20px 20px;
   }
   .headf #navbar .logo {
     height: 100%;
@@ -301,15 +301,19 @@ body {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    padding-top: 10px;
   }
   .headf #navbar .nav-item {
     margin-left: 0px;
+  }
+  .headf #navbar .nav-link {
+    padding: 5px 0px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .headf #navbar {
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 0px 0px;
   }
   .headf #navbar .logo {
     width: 80%;
@@ -338,7 +342,7 @@ body {
 
 @media screen and (max-width: 450px) {
   .headf .img-text {
-    padding: 0px 40px 90px 20px;
+    padding: 30px 40px 90px 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
