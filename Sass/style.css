@@ -323,9 +323,15 @@ body {
   padding: 0;
 }
 
-@media screen and (max-width: 765px) {
+.headf #navbar .d-img {
+  height: 30px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
   .headf #navbar {
-    margin: 40px 40px 20px 20px;
+    margin: 40px 40px 80px 20px;
   }
   .headf #navbar .logo {
     height: 100%;
@@ -350,6 +356,9 @@ body {
   }
   .headf #navbar .logo {
     width: 80%;
+  }
+  .headf #navbar .top h5 {
+    font-size: 18px;
   }
 }
 
