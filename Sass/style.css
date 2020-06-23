@@ -341,6 +341,18 @@ body {
   padding-right: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+  .headf #navbar .top {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-top: 10px;
+  }
+  .headf #navbar .nav-item {
+    margin-left: 0px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .headf #navbar {
     margin: 40px 40px 80px 20px;
