@@ -24,6 +24,12 @@
     background: $color-btn;
     border-radius: 0;
     outline: none;
+
+    &:hover {
+      background: white;
+      color: $color-btn;
+      border: 1px solid $color-btn;
+    }
   }
 
   @media screen and (max-width: 576px) {

@@ -92,6 +92,12 @@ body {
   outline: none;
 }
 
+#burgers .btn-primary:hover {
+  background: white;
+  color: #d32525;
+  border: 1px solid #d32525;
+}
+
 @media screen and (max-width: 768px) {
   #burgers .img-b {
     max-width: 100%;
@@ -145,6 +151,12 @@ body {
   background: #d32525;
   border-radius: 0;
   outline: none;
+}
+
+#book .btn-primary:hover {
+  background: white;
+  color: #d32525;
+  border: 1px solid #d32525;
 }
 
 @media screen and (max-width: 576px) {
@@ -310,7 +322,7 @@ body {
 }
 
 .headf #navbar .nav-item {
-  margin-left: 40px;
+  margin-left: 70px;
 }
 
 .headf #navbar .nav-item:hover {
