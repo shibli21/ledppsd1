@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>BURGER HOUSE</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -27,53 +27,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Sass/style.css" />
   </head>
   <body>
     <!-- *** ---------- NAV START ---------- *** -->
 
     <section id="nav">
       <div class="headf">
-        <!-- <input type="checkbox" id="navi-toggle" class="navigation__checkbox" />
-        <label for="navi-toggle" class="navigation__button">
-          <span class="navigation__icon"></span>
-        </label>
-        <div class="navigation__background"></div> -->
-        <!-- <nav class="navi">
-          <input type="checkbox" class="checkbox" />
-
-          <div class="logo__box">
-            <img src="./img/logo.png" alt="" class="navi__logo" />
-          </div>
-          <div class="navi__links">
-            <div class="top">
-              <i class="fas fa-biking"></i>
-              <h5>Express Delivery +1 234 567 890</h5>
-            </div>
-            <div class="bottom">
-              <ul class="navi__list">
-                <li class="navi__item">
-                  <a href="#" class="navi__link">HOME</a>
-                </li>
-                <li class="navi__item">
-                  <a href="#" class="navi__link">MENU</a>
-                </li>
-                <li class="navi__item">
-                  <a href="#" class="navi__link">OUR STORY</a>
-                </li>
-                <li class="navi__item">
-                  <a href="#" class="navi__link">CONTACT US</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav> -->
         <div id="navbar">
           <nav class="navbar navbar-expand-lg">
             <a href="#" class="navbar-brand logo">
-              <!-- <div class="logo__box"> -->
               <img src="./img/logo.png" alt="" class="img-fluid logo" />
-              <!-- </div> -->
             </a>
             <button
               class="navbar-toggler custom-toggler"
@@ -88,8 +52,16 @@
             <div class="collapse navbar-collapse" id="menu">
               <div class="ml-auto">
                 <div class="top">
-                  <i class="fas fa-biking"></i>
-                  <!-- <img src="./img/food-delivery.svg" alt="" /> -->
+                  <!-- <i class="fas fa-biking"></i> -->
+                  <img
+                    class="img-fluid"
+                    style="
+                      height: 30px;
+                      margin-bottom: 10px;
+                      padding-right: 10px;
+                    "
+                    src="https://img.icons8.com/pastel-glyph/64/000000/delivery-scooter.png"
+                  />
                   <h5>Express Delivery +1 234 567 890</h5>
                 </div>
                 <ul class="navbar-nav">
@@ -297,37 +269,6 @@
       <!-- *** ---------- FOOTER START ---------- *** -->
 
       <section id="footer">
-        <!-- <div class="container"> -->
-        <!-- <div class="row f-img">
-          <div class="col-md-6 box-1">
-            <img class="img-fluid" src="./img/logo2.png" alt="" />
-            <p class="d">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              quis porro voluptatum dicta recusandae tempore cum, minus enim,
-              dolore ut asperiores, cupiditate atque alias debitis temporibus
-              delectus iste obcaecati laborum!
-            </p>
-            <p class="copy">&copy; COMPANY NAME 2020.ALL RIGHTS RESERVED</p>
-          </div>
-          <div class="col-md-2"></div>
-          <div class="col-md-4 box-2 mb-5">
-            <div>
-              <p>
-                <i class="fas fa-map-marker-alt"></i>MAIN ROAD,BUILDING
-                NAME,COUNTRY
-              </p>
-              <p><i class="fas fa-envelope"></i> INFO@COMPANY.COM</p>
-
-              <div class="icons">
-                <i class="fab fa-facebook ic"></i>
-                <i class="fab fa-instagram ic"></i>
-                <i class="fab fa-twitter ic"></i>
-                <i class="fab fa-whatsapp ic"></i>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
         <div class="f-img">
           <div class="row f">
             <div class="col-md-6 box-1">
@@ -386,17 +327,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-    <script>
-      var owl = $(".owl-carousel");
-      owl.owlCarousel({
-        items: 1,
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-      });
-    </script>
+    <script src="./Js/app.js"></script>
   </body>
 </html>

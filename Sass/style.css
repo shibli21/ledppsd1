@@ -206,7 +206,7 @@ body {
 }
 
 #footer .f-img {
-  background: url("./img/footer.png") no-repeat top/cover;
+  background: url("../img/footer.png") no-repeat top/cover;
   max-height: 530px;
   margin: 140px 3rem 3rem 3rem;
   padding: 20px;
@@ -277,10 +277,6 @@ body {
 
 .headf #navbar #menu {
   z-index: 3000;
-}
-
-.headf #navbar .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .headf #navbar .custom-toggler.navbar-toggler {
