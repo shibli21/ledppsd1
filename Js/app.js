@@ -10,6 +10,6 @@ owl.owlCarousel({
 
 AOS.init({
   once: true,
-  offset: 100,
+  offset: 200,
   duration: 500,
 });
