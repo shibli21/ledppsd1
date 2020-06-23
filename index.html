@@ -27,7 +27,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+
     <link rel="stylesheet" href="./Sass/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- *** ---------- NAV START ---------- *** -->
@@ -82,7 +88,11 @@
             <img src="./img/text.png" class="img-text img-fluid" alt="" />
           </div>
           <div class="col-md-6">
-            <img src="./img/burr2.png" alt="" class="burger-img img-fluid" />
+            <img
+              src="./img/burr2.png"
+              alt=""
+              class="burger-img img-fluid animate__animated animate__zoomInDown"
+            />
           </div>
         </div>
       </div>
@@ -95,7 +105,7 @@
     <section id="try">
       <div class="container">
         <div class="row py-5 try">
-          <div class="col-md-6 mb-4 text-box">
+          <div class="col-md-6 mb-4 text-box" data-aos="zoom-out-right">
             <img src="./img/b1.png" alt="" class="img-fluid" />
             <div class="text-1">
               <p>
@@ -104,7 +114,7 @@
               <h1 class="primary-t">MOST POPULAR BURGER</h1>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="zoom-out-left">
             <div class="row">
               <div class="col-md-12 text-box">
                 <img src="./img/b2.png" alt="" class="img-fluid" />
@@ -156,7 +166,12 @@
 
         <div class="row my-5">
           <div class="col-md-4 mb-4">
-            <img src="./img/b5.png" alt="" class="img-b" />
+            <img
+              src="./img/b5.png"
+              alt=""
+              class="img-b"
+              data-aos="zoom-out-down"
+            />
             <h1 class="primary-t">LOREM IPSUM DOLOR</h1>
             <p>
               Lorem ipsum dolor sit amet ,consectetur adipisicing elit,sed do.
@@ -164,7 +179,12 @@
             <a href="" class="btn btn-primary">OREDER NOW</a>
           </div>
           <div class="col-md-4 mb-4">
-            <img src="./img/b6.png" alt="" class="img-b" />
+            <img
+              src="./img/b6.png"
+              alt=""
+              class="img-b"
+              data-aos="zoom-out-down"
+            />
             <h1 class="primary-t">LOREM IPSUM DOLOR</h1>
             <p>
               Lorem ipsum dolor sit amet ,consectetur adipisicing elit,sed do.
@@ -172,7 +192,12 @@
             <a href="" class="btn btn-primary">OREDER NOW</a>
           </div>
           <div class="col-md-4 mb-4">
-            <img src="./img/b7.png" alt="" class="img-b" />
+            <img
+              src="./img/b7.png"
+              alt=""
+              class="img-b"
+              data-aos="zoom-out-down"
+            />
             <h1 class="primary-t">LOREM IPSUM DOLOR</h1>
             <p>
               Lorem ipsum dolor sit amet ,consectetur adipisicing elit,sed do.
@@ -322,6 +347,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./Js/app.js"></script>
   </body>
 </html>

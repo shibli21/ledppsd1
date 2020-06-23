@@ -7,3 +7,9 @@ owl.owlCarousel({
   autoplayTimeout: 3000,
   autoplayHoverPause: true,
 });
+
+AOS.init({
+  once: true,
+  offset: 100,
+  duration: 500,
+});
